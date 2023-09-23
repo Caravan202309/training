@@ -10,8 +10,8 @@ terraform {
     }
   }
   backend "s3" {
-    bucket  = "{YOUR-S3-BUCKET-NAME}"
-    key     = "{YOUR-S3-BUCKET-KEY}"
+    bucket  = "training-atashiro"
+    key     = "training-atashiro-dev.tfstate"
     region  = "ap-northeast-1"
     profile = "terraform"
   }
